@@ -57,7 +57,7 @@ Below is a list of the contents of this repository - instructions for using them
 
 ### Submit Your Project
 
-To submit your project, please follow the instructions in the [Project Submission & Review](https://learning.flatironschool.com/courses/1384/pages/project-submission-and-review-online?module_item_id=91641) page on Canvas.
+To submit your project, please follow the instructions in the [Project Submission & Review](https://learning.flatironschool.com/courses/2085/pages/project-submission-and-review-online?module_item_id=140538) page on Canvas.
 
 
 ### Notes
