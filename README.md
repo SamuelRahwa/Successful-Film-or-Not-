@@ -1,67 +1,115 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+# What Factors Make Films Successful?
 
-![blueprint](images/blueprint.png)
+**Author**: Samuel Rahwa
+March 5, 2021
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+## Overview
 
-## Repository Contents
+Microsoft stakeholders have noticed their competitors creating original video content. In response, Microsoft has decided to create a new movie studio, but they are unfamiliar with the film sector.  I have been given two datasets and have to put together a report on the movie industry that will allow Microsoft producers to make informed decisions.
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+## Business Problem
 
-- `README.md`: The README for this repo explaining its contents - you're reading it now.
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project.
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions.
-- `create_sql_database.ipynb`: A notebook for creating an SQL database if you would prefer to use SQL for this project.
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy).
-- `data` folder: A folder for the data you reference with your code.
-- `src` folder: A folder containing custom functions.
-- `images` folder: A folder for the images you reference in your files .
-- `.gitignore`: A hidden file that tells git to not track certain files and folders.
+No one factor can make or break a film. Factors like genres, critics reviews, audience ratings, directors and star power can aid in making a successful film.
 
-## Instructions For Using This Repository
+***
+Business Questions:
+* What types of genres gross the highest? Profit?
+* What types of reviews matter by genre?
+* Who should we acquire as our directors, actors and actresses? 
+***
 
-### Fork This Repository
+## Data
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right.
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+Two Datasets were used:
+* Rotten Tomatoes 
+** Various types of Reviews, Directors and Actors/Actresses
+** 1129887 Rows
+** 28 Columns
 
-3. Use `git clone` to clone your fork of this repo to your local computer
-
-### Work In Your Fork Of This Repository
-
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
-
-### Use The Slide Template
-
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-
-### Tidy Up Your Project
-
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
-   - Any unused data files in the `data` folder
-   - Any unused images in the `images` folder
-
-### Submit Your Project
-
-To submit your project, please follow the instructions in the [Project Submission & Review](https://learning.flatironschool.com/courses/2085/pages/project-submission-and-review-online?module_item_id=140538) page on Canvas.
+* IMDB 
+** Genres, Budget and Grossing Data
+** 2097 Rows 
+** 22 Columns
 
 
-### Notes
+## Methods
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting.
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go.
-- If you would like to use SQL for this project, please open the `create_sql_database.ipynb` notebook, and run the cells. The schema for the database is stored in the images/ folder.
+* Missing Data Percentage 
+** Dropping Columns that are missing  25 to 30% of it’s  values
+* Removing Duplicates
+* Using graphs and numerical methods/functions to see what data matters
+* Creating a subset dataframes focused on creating value
+** Viewed unnecessary data as data doesn’t add value 
+* Creating new columns and renaming  columns to access data easier
+* Looking at the data to see if it contained any correlation
+* Answering my questions with graphs and configurations to the dataframe
+
+
+## Results
+
+#### Top Grossing Genres:
+
+Domestic: 
+* (1) Action 
+* (2) Adventure  
+* (3) Comedy
+
+Abroad: 
+* (1) Action
+* (2) Adventure
+* (3) Drama
+
+#### Top Profits By Genre:
+
+Domestic: 
+* (1) Comedy
+* (2) Adventure
+* (3) Action
+
+Abroad:
+* (1) Action
+* (2) Adventure
+* (3) Drama 
+
+#### Audience Ratings are the most dominate type of review, for almost every genre. 
+
+#### Multi-Film Directors have issues with runtime and what the audience loves to watch.
+(The criteria was a minimum  production of at least 18 films)
+
+#### Audience ratings pointed to multi-film Actors/Actresses were dominated by men, who mainly starred in Action, Adventure and Drama genres.
+(The criteria was a minimum of being in at least 25 films)
+
+### Gross vs Profit
+![graph1](./images/How Primary Genres Gross, Domestically vs Abroad.png)
+![graph1](./images/How Primary Genres Generate Profit, Domestically vs Abroad.png)
+
+### Audience Reviews Dominate
+![graph1](./images/What Types of Reviews Matter by Genre.png)
+
+### Multi-film Directors, Actors and Actresses we can acquire 
+![graph1](./images/Which multi film Directors should we acquire?.png)
+![graph1](./images/Which multi-film Actors and Actresses should we acquire?.png)
+
+
+
+## Conclusions
+
+A film is multifaceted. One factor is not the sole determinant for why a film will be successful or fail. We can this the correlation matrices. By using the following common factors: genres that gross/profit the most, audience reviews, highest audience approvals for directors, the average directors runtimes and the top actors/actresses to target for our films, we can build a successful launch point for our production studio's success strategy.
+
+
+## For More Information
+
+Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+
+For any additional questions, please contact **Samuel Rahwa at samuelaaronrahwa@gmail.com**
+
+## Repository Structure
+
+
+```
+├── README.md                           <- The top-level README for reviewers of this project
+├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
+```
