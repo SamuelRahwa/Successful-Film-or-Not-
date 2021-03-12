@@ -26,29 +26,29 @@ Two Datasets were used:
 
 * Rotten Tomatoes 
 
-* Various types of Reviews, Directors and Actors/Actresses
+    * Various types of Reviews, Directors and Actors/Actresses
 
-* 1129887 Rows
+    * 1129887 Rows
 
-* 28 Columns
+    * 28 Columns
 
 * IMDB 
 
-* Genres, Budget and Grossing Data
+    * Genres, Budget and Grossing Data
 
-* 2097 Rows 
-
-* 22 Columns
+    * 2097 Rows 
+    
+    * 22 Columns
 
 
 ## Methods
 
 * Missing Data Percentage 
-** Dropping Columns that are missing  25 to 30% of it’s  values
+    * Dropping Columns that are missing  25 to 30% of it’s  values
 * Removing Duplicates
 * Using graphs and numerical methods/functions to see what data matters
 * Creating a subset dataframes focused on creating value
-** Viewed unnecessary data as data doesn’t add value 
+    * Viewed unnecessary data as data doesn’t add value 
 * Creating new columns and renaming  columns to access data easier
 * Looking at the data to see if it contained any correlation
 * Answering my questions with graphs and configurations to the dataframe
