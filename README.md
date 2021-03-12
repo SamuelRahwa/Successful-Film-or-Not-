@@ -5,15 +5,16 @@ March 5, 2021
 
 ## Overview
 
-Microsoft stakeholders have noticed their competitors creating original video content. In response, Microsoft has decided to create a new movie studio, but they are unfamiliar with the film sector.  I have been given two datasets and have to put together a report on the movie industry that will allow Microsoft producers to make informed decisions.
+Microsoft stakeholders have noticed their competitors creating original video content. In response, Microsoft has decided to create a new movie studio, but they are unfamiliar with the film sector.  I have been given the task to put together a report on the movie industry that will allow Microsoft stakeholders able to make informed decisions.
 
 ## Business Problem
 
-No one factor can make or break a film. Factors like genres, critics reviews, audience ratings, directors and star power can aid in making a successful film.
+No one factor can make a film successful. Factors like genres, critics reviews, audience ratings, directors and star power can aid in making a successful film.
 
 ***
 Business Questions:
-* What types of genres gross the highest? Profit?
+* What types of genres gross the highest? 
+* What types of genres profit the highest?
 * What types of reviews matter by genre?
 * Who should we acquire as our directors, actors and actresses? 
 ***
@@ -21,14 +22,21 @@ Business Questions:
 ## Data
 
 Two Datasets were used:
+
 * Rotten Tomatoes 
+
 ** Various types of Reviews, Directors and Actors/Actresses
+
 ** 1129887 Rows
+
 ** 28 Columns
 
 * IMDB 
+
 ** Genres, Budget and Grossing Data
+
 ** 2097 Rows 
+
 ** 22 Columns
 
 
@@ -99,7 +107,7 @@ A film is multifaceted. One factor is not the sole determinant for why a film wi
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](.new_repo/what_factors_make_a_film_successful.ipynb) or our [presentation](.new_repo/what_factors_make_films_successful_presentation.pdf).
 
 For any additional questions, please contact **Samuel Rahwa at samuelaaronrahwa@gmail.com**
 
@@ -107,9 +115,9 @@ For any additional questions, please contact **Samuel Rahwa at samuelaaronrahwa@
 
 
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+├── README.md                                                   <- The top-level README for reviewers of this project
+├── what_factors_make_a_film_successful.ipynb                   <- Narrative documentation of analysis in Jupyter notebook
+├── what_factors_make_films_successful_presentation.pdf         <- PDF version of project presentation
+├── data                                                        <- Both sourced externally and generated from code
+└── images                                                      <- Both sourced externally and generated from code
 ```
