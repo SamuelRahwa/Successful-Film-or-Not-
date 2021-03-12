@@ -26,19 +26,19 @@ Two Datasets were used:
 
 * Rotten Tomatoes 
 
-** Various types of Reviews, Directors and Actors/Actresses
+* Various types of Reviews, Directors and Actors/Actresses
 
-** 1129887 Rows
+* 1129887 Rows
 
-** 28 Columns
+* 28 Columns
 
 * IMDB 
 
-** Genres, Budget and Grossing Data
+* Genres, Budget and Grossing Data
 
-** 2097 Rows 
+* 2097 Rows 
 
-** 22 Columns
+* 22 Columns
 
 
 ## Methods
@@ -89,15 +89,17 @@ Abroad:
 (The criteria was a minimum of being in at least 25 films)
 
 ### Gross vs Profit
-![graph1](../images/How Primary Genres Gross, Domestically vs Abroad.png)
-![graph1](../images/How Primary Genres Generate Profit, Domestically vs Abroad.png)
+
+![graph1](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/How%20Primary%20Genres%20Gross%2C%20Domestically%20vs%20Abroad.png)
+
+![graph2](images/How Primary Genres Generate Profit, Domestically vs Abroad.png)
 
 ### Audience Reviews Dominate
-![graph1](./images/What Types of Reviews Matter by Genre.png)
+![graph3](images/What Types of Reviews Matter by Genre.png)
 
 ### Multi-film Directors, Actors and Actresses we can acquire 
-![graph1](../images/Which multi film Directors should we acquire?.png)
-![graph1](../images/Which multi-film Actors and Actresses should we acquire?.png)
+![graph4](images/Which multi film Directors should we acquire?.png)
+![graph5](images/Which multi-film Actors and Actresses should we acquire?.png)
 
 
 
