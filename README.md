@@ -90,16 +90,16 @@ Abroad:
 
 ### Gross vs Profit
 
-![graph1](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/How%20Primary%20Genres%20Gross%2C%20Domestically%20vs%20Abroad.png, width=1900, unconfined=True)
+![graph1](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/How%20Primary%20Genres%20Gross%2C%20Domestically%20vs%20Abroad.png)
 
-![graph2](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/How%20Primary%20Genres%20Generate%20Profit%2C%20Domestically%20vs%20Abroad.png, width=1900, unconfined=True)
+![graph2](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/How%20Primary%20Genres%20Generate%20Profit%2C%20Domestically%20vs%20Abroad.png)
 
 ### Audience Reviews Dominate
-![graph3](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/What%20Types%20of%20Reviews%20Matter%20by%20Genre.png, width=1900, unconfined=True)
+![graph3](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/What%20Types%20of%20Reviews%20Matter%20by%20Genre.png)
 
 ### Multi-film Directors, Actors and Actresses should we consider acquiring
-![graph4](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/Which%20multi%20film%20Directors%20should%20we%20acquire%3F.png, width=1900, unconfined=True)
-![graph5](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/Which%20multi-film%20Actors%20and%20Actresses%20should%20we%20acquire%3F.png, width=1900, unconfined=True)
+![graph4](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/Which%20multi%20film%20Directors%20should%20we%20acquire%3F.png)
+![graph5](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/Which%20multi-film%20Actors%20and%20Actresses%20should%20we%20acquire%3F.png)
 
 
 
