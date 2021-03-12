@@ -1,6 +1,7 @@
 # What Factors Make Films Successful?
 
 **Author**: Samuel Rahwa
+
 March 5, 2021
 
 ## Overview
@@ -88,15 +89,15 @@ Abroad:
 (The criteria was a minimum of being in at least 25 films)
 
 ### Gross vs Profit
-![graph1](./images/How Primary Genres Gross, Domestically vs Abroad.png)
-![graph1](./images/How Primary Genres Generate Profit, Domestically vs Abroad.png)
+![graph1](../images/How Primary Genres Gross, Domestically vs Abroad.png)
+![graph1](../images/How Primary Genres Generate Profit, Domestically vs Abroad.png)
 
 ### Audience Reviews Dominate
 ![graph1](./images/What Types of Reviews Matter by Genre.png)
 
 ### Multi-film Directors, Actors and Actresses we can acquire 
-![graph1](./images/Which multi film Directors should we acquire?.png)
-![graph1](./images/Which multi-film Actors and Actresses should we acquire?.png)
+![graph1](../images/Which multi film Directors should we acquire?.png)
+![graph1](../images/Which multi-film Actors and Actresses should we acquire?.png)
 
 
 
@@ -107,7 +108,7 @@ A film is multifaceted. One factor is not the sole determinant for why a film wi
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](.new_repo/what_factors_make_a_film_successful.ipynb) or our [presentation](.new_repo/what_factors_make_films_successful_presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](../what_factors_make_a_film_successful.ipynb) or our [presentation](../what_factors_make_films_successful_presentation.pdf).
 
 For any additional questions, please contact **Samuel Rahwa at samuelaaronrahwa@gmail.com**
 
