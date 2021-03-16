@@ -6,18 +6,19 @@ March 5, 2021
 
 ## Overview
 
-Microsoft stakeholders have noticed their competitors creating original video content. In response, Microsoft has decided to create a new movie studio, but they are unfamiliar with the film sector.  I have been given the task to put together a report on the movie industry that will allow Microsoft stakeholders able to make informed decisions.
+I have been charged with putting together a report that allows Microsoft Studios to make informed decisions about creating original video content. 
+
 
 ## Business Problem
 
-No one factor can make a film successful. Factors like genres, critics reviews, audience ratings, directors and star power can aid in making a successful film.
+No one factor can make a film successful. Factors like genres, reviews, directors and star power can aid in making a film successful.
 
 ***
 Business Questions:
-* What types of genres gross the highest? 
-* What types of genres profit the highest?
-* What types of reviews matter by genre?
-* Who should we acquire as our directors, actors and actresses? 
+* What genres profit the most?
+* What reviews are most important?
+* Who should we consider hiring to direct our films?
+* Who should we consider to star in our films?
 ***
 
 ## Data
@@ -43,30 +44,16 @@ Two Datasets were used:
 
 ## Methods
 
-* Missing Data Percentage 
-    * Dropping Columns that are missing  25 to 30% of it’s  values
-* Removing Duplicates
-* Using graphs and numerical methods/functions to see what data matters
-* Creating a subset dataframes focused on creating value
-    * Viewed unnecessary data as data doesn’t add value 
-* Creating new columns and renaming  columns to access data easier
-* Looking at the data to see if it contained any correlation
-* Answering my questions with graphs and configurations to the dataframe
+* Data Exploration
+* Data Cleaning
+* Creating subset dataframes for value
+** To answer business questions
+* Creating Visualizations to show findings
+
 
 
 ## Results
 
-#### Top Grossing Genres:
-
-Domestic: 
-* (1) Action 
-* (2) Adventure  
-* (3) Comedy
-
-Abroad: 
-* (1) Action
-* (2) Adventure
-* (3) Drama
 
 #### Top Profits By Genre:
 
@@ -80,32 +67,28 @@ Abroad:
 * (2) Adventure
 * (3) Drama 
 
+![graph1]( )
+
 #### Audience Ratings are the most dominate type of review, for almost every genre. 
+
+![graph2]( )
+
 
 #### Multi-Film Directors have issues with runtime and what the audience loves to watch.
 (The criteria was a minimum  production of at least 18 films)
 
+![graph3]( )
+
+
 #### Audience ratings pointed to multi-film Actors/Actresses were dominated by men, who mainly starred in Action, Adventure and Drama genres.
 (The criteria was a minimum of being in at least 25 films)
 
-### Gross vs Profit
-
-![graph1](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/How%20Primary%20Genres%20Gross%2C%20Domestically%20vs%20Abroad.png)
-
-![graph2](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/How%20Primary%20Genres%20Generate%20Profit%2C%20Domestically%20vs%20Abroad.png)
-
-### Audience Reviews Dominate
-![graph3](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/What%20Types%20of%20Reviews%20Matter%20by%20Genre.png)
-
-### Multi-film Directors, Actors and Actresses should we consider acquiring
-![graph4](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/Which%20multi%20film%20Directors%20should%20we%20acquire%3F.png)
-![graph5](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/Which%20multi-film%20Actors%20and%20Actresses%20should%20we%20acquire%3F.png)
-
+![graph4]( )
 
 
 ## Conclusions
 
-A film is multifaceted. One factor is not the sole determinant for why a film will be successful or fail. We can this the correlation matrices. By using the following common factors: genres that gross/profit the most, audience reviews, highest audience approvals for directors, the average directors runtimes and the top actors/actresses to target for our films, we can build a successful launch point for our production studio's success strategy.
+By using the following factors: genres that profit the most, audience reviews, highest audience approvals for directors and multifilm actors/actresses to target for our original video content, we can build a successful launch point for our production studio's strategy.
 
 
 ## For More Information
