@@ -67,23 +67,23 @@ Abroad:
 * (2) Adventure
 * (3) Drama 
 
-![graph1]( )
+![graph1](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/How%20Primary%20Genres%20Generate%20Profit%2C%20Domestically%20vs%20Abroad.png)
 
 #### Audience Ratings are the most dominate type of review, for almost every genre. 
 
-![graph2]( )
+![graph2](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/Which%20Review%20Types%20are%20Most%20Prevalent.png)
 
 
 #### Multi-Film Directors have issues with runtime and what the audience loves to watch.
 (The criteria was a minimum  production of at least 18 films)
 
-![graph3]( )
+![graph3](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/Multifilm%20Directors%20we%20could%20Acquire%20with%20the%20Highest%20Audience%20Rating%22.png)
 
 
 #### Audience ratings pointed to multi-film Actors/Actresses were dominated by men, who mainly starred in Action, Adventure and Drama genres.
 (The criteria was a minimum of being in at least 25 films)
 
-![graph4]( )
+![graph4](https://github.com/SamuelRahwa/what_factors_make_a_successful_film/blob/main/images/Multifilm%20Actors%20or%20Actresses%20we%20could%20Acquire%20with%20the%20Highest%20Audience%20Rating.png)
 
 
 ## Conclusions
