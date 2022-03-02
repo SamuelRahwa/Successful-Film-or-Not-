@@ -159,3 +159,5 @@ __pycache__/
 
 # datafiles
 *.csv
+
+.gitignore # Ignore the hand that feeds!
