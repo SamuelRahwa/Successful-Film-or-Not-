@@ -41,13 +41,14 @@ Two Datasets were used:
     
     * 22 Columns
 
+* [Link to the Data](https://github.com/learn-co-curriculum/dsc-phase-1-project/tree/master/zippedData)
 
 ## Methods
 
 * Data Exploration
 * Data Cleaning
 * Creating subset dataframes for value
-⋅⋅* To answer business questions
++ To answer business questions
 * Creating Visualizations to show findings
 
 
