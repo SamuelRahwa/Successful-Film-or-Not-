@@ -47,8 +47,7 @@ Two Datasets were used:
 
 * Data Exploration
 * Data Cleaning
-* Creating subset dataframes for value
-+ To answer business questions
+* Creating subset dataframes to answer business questions
 * Creating Visualizations to show findings
 
 
